@@ -1,7 +1,7 @@
 #!bin/bash
 # Declaring value
 # The aws profile is in the region in eu-central-1 -> Frankfurt
-AWS_PROFILE="sand-box"
+AWS_PROFILE="***"       # Add your AWS profile here
 export AWS_PROFILE
 PC_IP=$(dig +short myip.opendns.com @resolver1.opendns.com)
 DemoDBSubnetGroup="DemoDBSubnetGroup"
